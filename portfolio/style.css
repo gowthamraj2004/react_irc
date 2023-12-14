@@ -1,0 +1,76 @@
+body {
+    background-image: url('photo-1518655048521-f130df041f66.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.profileimg{
+    margin: 50px;
+    height: 250px;
+    width: 250px;
+    border-radius: 500px;
+    border: 5px solid black;
+    /* position: absolute; */
+    padding: 10px;
+    
+    
+    /* transform: translate(0,-20%); */
+}
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+    /* position: absolute; */
+    /* top: 50%; */
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 10px solid black;
+    margin-left: 0px;
+}
+.projects{
+    /* position: absolute; */
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.pbtn{
+    /* margin-right: 10px; */
+    /* margin-bottom: 50px; */
+    padding: 5px 10px 5px 10px;
+    background-color: black;
+    color: aliceblue;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    border: 2px solid black;
+    margin: 20px;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+.card-body{
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content:.center ;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    
+}
+.card-img-top{
+    height: 200px;
+    width: 300px;
+}
